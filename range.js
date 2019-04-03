@@ -6,6 +6,4 @@ const range = function* (start, end, step = 1) {
   }
 }
 
-for (let i of range(0, 10)) {
-  console.log(i)
-}
+module.exports = range
