@@ -29,3 +29,5 @@ Derived.prototype.sayHello = function() {
 subClassing(Super, Derived);
 
 console.log(new Derived("Tom", 23).sayHello());
+
+module.exports = subClassing;

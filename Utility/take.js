@@ -6,3 +6,5 @@ const take = n =>
       n--;
     }
   };
+
+module.exports = take;
