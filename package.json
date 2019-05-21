@@ -5,6 +5,9 @@
   "repository": "https://github.com/dumboz/stupid-code.git",
   "author": "dumboz <heydumboz@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"

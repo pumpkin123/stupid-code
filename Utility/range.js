@@ -22,3 +22,5 @@ const rangeAsArray = (start, end, step = 1) => {
 const rangeAsArray2 = (...args) => [...range(...args)];
 
 // console.log(rangeAsArray2(2,9,2))
+
+module.exports = range;
