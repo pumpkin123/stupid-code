@@ -1,0 +1,19 @@
+{
+  "name": "stupid-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dumboz/stupid-code.git",
+  "author": "dumboz <heydumboz@gmail.com>",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "prettier": "^1.17.1",
+    "pretty-quick": "^1.11.0"
+  }
+}
