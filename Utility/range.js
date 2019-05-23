@@ -7,6 +7,26 @@ const range = function*(start, end, step = 1) {
   }
 };
 
+// 使用iterator实现
+
+const range2 = (start, end, step) => {
+  let i = 0;
+  return {
+    [Symbol.iterator]() {
+      return this;
+    },
+    next() {
+      let num = start + step * i;
+      i++;
+      if (num < end) {
+        return { done: false, value: num };
+      } else {
+        return { done: true };
+      }
+    }
+  };
+};
+
 // 如果想得到一个数组
 
 const rangeAsArray = (start, end, step = 1) => {
